@@ -1,0 +1,291 @@
+/* Интернет-магазин в разработке — заказы не исполняются. Закрыть */
+.woocommerce-store-notice,
+p.demo_store {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 0;
+    text-align: center;
+    background-color: #a46497;
+    color: #fff;
+    z-index: 99998;
+    box-shadow: 0 1px 1em rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.woocommerce-store-notice a,
+p.demo_store a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.woocommerce-notices-wrapper,
+.woocommerce-NoticeGroup.woocommerce-NoticeGroup-checkout {
+    display: none !important;
+}
+
+/*.d-hide {
+    display: none !important;
+}*/
+
+.woocommerce p.cart-empty.woocommerce-info {
+    display: none !important;
+}
+
+.nav__link>span {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+/* .first-screen__img img {
+    right: 0;
+    left: inherit;
+} */
+
+/*.category__item_article::before {
+    display: none;
+}*/
+/*
+.category__sorting {
+    position: relative;
+}
+
+.category__sorting .select-css {
+    cursor: pointer;
+}
+
+.category__sorting .select-input {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    margin-top: 4px;
+    width: 176px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(65, 52, 41, 0.12);
+    border-radius: 3px;
+}
+
+.category__sorting .select-input.show {
+    display: block;
+}
+
+.category__sorting .select-input span {
+    display: block;
+    height: 30px;
+    line-height: 14px;
+    color: #2C312C;
+    cursor: pointer;
+    padding: 8px 0 0 25px;
+    border-bottom: 1px solid rgba(120, 100, 83, 0.2);
+}
+
+.category__sorting .select-input.show {
+    width: 200px;
+    position: absolute;
+    top: 33px;
+    right: 0;
+
+}
+*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+input[name='colour'] {
+    border: 1px solid red;
+}
+
+.header__basket_price {
+    min-width: 18px;
+    text-align: center;
+}
+
+.product__img img {
+    object-fit: cover;
+}
+
+.showcase__count_price:after,
+.showcase__count_price:before {
+    display: none;
+}
+
+.showcase__count_price {
+    font-weight: 400;
+}
+
+.showcase__count_price span {
+    font-weight: 600;
+}
+
+.checkout__items_title p:after {
+    display: none;
+}
+
+/* #payment {
+    display: none;
+} */
+
+.payment .btn {
+    width: 100%;
+}
+
+.request__descr {
+    justify-content: space-between;
+}
+
+.posted-404 h1:before {
+    content: 'Ошибка 404';
+}
+
+.posted-404 {
+    max-width: 1120px;
+}
+
+
+.woocommerce-invalid-required-field .field__input~.field__label {
+    transform: translateY(0) scale(.75);
+    padding: 0 20px;
+    color: #F26060;
+}
+
+.modal .form__subtitle {
+    text-align: center;
+}
+
+.modal-access.modal-open {
+    opacity: 0;
+}
+
+.catalog-page {
+    margin-top: 44px;
+}
+
+.catalog-page .catalog-products {
+    margin-top: 56px;
+}
+
+.album-catalog {
+    margin-top: 56px;
+}
+
+.contacts__info_mode {
+    gap: 0;
+}
+
+.contacts__info_mode:before {
+    margin-right: 10px;
+}
+
+.contacts__info {
+    max-width: inherit;
+}
+
+.contacts__info_tel a {
+    font-weight: 700;
+}
+
+#map .map__modal {
+    width: 300px;
+    height: 70px;
+}
+
+#map .map__modal .map__modal_title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #325837;
+    letter-spacing: 0;
+    width: 300px;
+    max-width: inherit;
+}
+
+#map .map__modal .map__modal_subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #2C312C;
+    letter-spacing: 0;
+    margin-top: 6px;
+    width: 300px;
+    max-width: inherit;
+}
+
+#map .map__modal a {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #606460;
+    letter-spacing: 0;
+    margin-top: 6px;
+    padding-left: 15px;
+    max-width: inherit;
+}
+
+.map__modal a:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 8px;
+    height: 11px;
+    background: url(../icons/contacts-map-modal.svg) no-repeat;
+}
+
+
+#map .map-nav__block {
+    position: absolute;
+    top: 10px;
+    left: -26px;
+}
+
+#map .ymaps-2-1-79-balloon__close+.ymaps-2-1-79-balloon__content {
+    height: 70px !important;
+}
+
+.contacts__info .select-js:before {
+    font-size: 12px;
+    width: 260px;
+    margin-bottom: 8px;
+}
+
+/*.no-products {
+    position: relative;
+    min-height: 600px;
+    padding: 0;
+}
+
+*/
+
+
+
+
+
+#c2 {
+    /* background-color: #FFFFFF; */
+    /* background-image: url(../img/while.png); */
+    background-image: url(https://mdn.github.io/dom-examples/canvas/chroma-keying/media/foo.png);
+    background-repeat: no-repeat;
+    background: #000;
+}
+
+.canvas {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+
+}
